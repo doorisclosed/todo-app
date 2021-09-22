@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "blabla",
+      "checked": true
+    },
+    {
+      "text": "ergh",
+      "checked": true,
+      "id": 2
+    },
+    {
+      "text": "кыепротцк6е",
+      "checked": true,
+      "id": 4
+    },
+    {
+      "text": "56н24576245624356",
+      "checked": false,
+      "id": 5
+    },
+    {
+      "text": "wefgwev",
+      "checked": false,
+      "id": 6
+    },
+    {
+      "text": "wsger",
+      "checked": false,
+      "id": 7
+    }
+  ]
+}

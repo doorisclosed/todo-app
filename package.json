@@ -1,0 +1,11 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "First ToDo List",
+  "main": "index.js",
+  "scripts": {
+    "backend:start": "json-server --watch backend/db.json"
+  },
+  "author": "DICK",
+  "license": "ISC"
+}

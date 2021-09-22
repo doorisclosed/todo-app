@@ -1,0 +1,124 @@
+.todo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    margin: 15px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url("simple-todo-list.jpg");
+    box-shadow: 0 14px 28px #DCDCDC; 0 10px 10px #DCDCDC;
+    position: relative;
+}
+
+.todo__logo {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    height: 35px;
+    width: 70px;
+    opacity: 0.4;
+}
+
+.todo__title {
+    font: 48px/80px Comic Sans MS;
+    margin: 0px auto;
+    color: DodgerBlue;
+    opacity: 0.75;
+}
+
+.todo__input {
+    position: relative;
+}
+
+.todo__add {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 26px;
+    width: 26px;
+    background-color: DodgerBlue;
+    cursor: pointer;
+}
+
+.todo__add:hover {
+    background-color: LightSkyBlue;
+}
+
+.todo__add::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%23fff' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z' class=''%3E%3C/path%3E%3C/svg%3E");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.todo__text {
+    outline: none;
+    font: 20px/26px Comic Sans MS;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    padding: 6px 34px 6px 10px;
+    width: 580px;
+}
+
+.todo__items {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 25px;
+    margin-right: auto;
+    font: 20px/36px Comic Sans MS;
+    text-align: justify;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.todo__delete {
+    right: 0;
+    top: 0;
+    margin: 0px 5px 0px 0px;
+    padding: 0px 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.todo__delete:hover {
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.todo-item__text {
+    font: 20px/36px Comic Sans MS;
+}
+
+.todo-item__text:hover {
+    color: DodgerBlue;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.todo-item__delete {
+    cursor: pointer;
+}
+
+.todo-item__delete:hover {
+    fill: red;
+}
